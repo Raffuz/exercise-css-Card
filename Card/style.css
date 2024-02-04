@@ -1,0 +1,128 @@
+
+
+body{position: relative;
+    padding: 20;
+    margin: 0;
+}
+
+
+article{
+    max-width: 300px;
+    border: solid 1px gainsboro;
+    border-radius: 20px;
+}
+article img{
+    width: 100%;
+    border-radius: 20px;
+}
+ul{
+    padding-left:0;
+}
+ul li{
+    list-style: none;
+    padding: 10;
+    
+}
+a{
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 0 10 10;
+}
+p, li{
+    border-bottom: solid 1px gainsboro;
+}
+p{
+    font-size: 17;
+    padding-left: 10;
+    padding-bottom: 10;
+    margin: 0;
+}
+h2{
+    padding-left: 10;
+}
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    article {
+        max-width: 100%;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Reset di alcuni stili predefiniti 
+body, h2, ul {
+    margin: 0;
+    padding: 0;
+}
+
+    Stile per l'articolo 
+article {
+    max-width: 400px;  o qualsiasi larghezza massima desideri
+    margin: auto;  centra la card se lo schermo è più largo del max-width 
+}
+
+Stile per l'immagine 
+img {
+    width: 100%; fa in modo che l'immagine occupi tutta la larghezza dell'articolo 
+    height: auto; mantiene il rapporto di aspetto 
+}
+
+/* Stile per il div che contiene il testo 
+div {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type:none; 
+    padding-left :10px
+}
+li{
+    padding-bottom :5px
+}
+a{
+    color :blue ;
+    text-decoration :none ;
+    font-weight:bold ;
+}*/
